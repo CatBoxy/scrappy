@@ -35,6 +35,12 @@ docker-compose up
 
 4. Allow CORS for the frontend updating the ORIGIN .env variable.
 
+Reset volumes
+
+```
+docker-compose down --volumes
+```
+
 ## Additional Information
 
 For the frontend application, please refer to the repository at:
